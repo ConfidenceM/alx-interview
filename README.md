@@ -30,23 +30,3 @@ def print_triangle(triangle):
     """
     for row in triangle:
         print("[{}]".format(",".join([str(x) for x in row])))
-
-
-if __name__ == "__main__":
-    print_triangle(pascal_triangle(5))
-
-guillaume@ubuntu:~/0x00$ 
-guillaume@ubuntu:~/0x00$ ./0-main.py
-[1]
-[1,1]
-[1,2,1]
-[1,3,3,1]
-[1,4,6,4,1]
-guillaume@ubuntu:~/0x00$ 
-Repo:
-
-GitHub repository: alx-interview
-Directory: 0x00-pascal_triangle
-File: 0-pascal_triangle.py
- 
-
